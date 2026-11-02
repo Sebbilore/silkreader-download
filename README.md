@@ -30,12 +30,20 @@ Beim ersten Start lädt Silkreader einmalig das KI-Modell (1 GB) – danach läu
 
 ### Mac (Testversion)
 
-Unter [Releases](https://github.com/Sebbilore/silkreader-download/releases) die neueste **Mac-Testversion** öffnen:
-`…-mac-arm64.dmg` für Macs mit Apple-Chip (M1–M4), `…-mac-x64.dmg` für ältere Intel-Macs. macOS 12 oder neuer.
+**Am einfachsten – ohne Sicherheitswarnung:** Programm *Terminal* öffnen und diese Zeile einfügen:
 
-Die Mac-Version ist noch nicht von Apple beglaubigt. Beim ersten Start: Silkreader in den Programme-Ordner ziehen,
-dann **Rechtsklick → Öffnen → Öffnen**. Damit die Spinne markierten Text lesen kann, unter
-*Systemeinstellungen → Datenschutz & Sicherheit → Bedienungshilfen* erlauben.
+```
+curl -fsSL https://raw.githubusercontent.com/Sebbilore/silkreader-download/main/install-mac.sh | bash
+```
+
+Das lädt die passende Version (Apple-Chip oder Intel), legt sie in den Programme-Ordner und startet sie.
+
+**Oder von Hand:** Unter [Releases](https://github.com/Sebbilore/silkreader-download/releases) die neueste **Mac-Testversion** öffnen:
+`…-mac-arm64.dmg` für Macs mit Apple-Chip (M1–M4), `…-mac-x64.dmg` für ältere Intel-Macs. macOS 12 oder neuer.
+Die App ist noch nicht von Apple beglaubigt: nach dem ersten Start *Systemeinstellungen → Datenschutz & Sicherheit → Dennoch öffnen*.
+Schritt für Schritt: **Silkreader-Mac-Anleitung.pdf** bei den Dateien der Mac-Version.
+
+Damit die Spinne markierten Text lesen kann, unter *Systemeinstellungen → Datenschutz & Sicherheit → Bedienungshilfen* erlauben.
 
 ## So geht's
 
