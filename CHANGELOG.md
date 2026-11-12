@@ -3,6 +3,17 @@
 All notable changes to Silkreader. / Alle wichtigen Änderungen an Silkreader.
 
 
+## 1.29.0
+- **Check of dates and amounts:** dates, deadlines ("4 weeks") and small amounts are checked against your original text; what does not match is marked.
+- **Read original aloud** (without AI), with one sentence back / forward.
+- **Combo mode:** reads fast first (preliminary); "More" lets the thorough model read more carefully.
+- **Outlook:** read the open e-mail in classic Outlook (Ctrl+Alt+O) – only that one e-mail, only on key press, directly on your PC.
+- **Ask first:** for dates and deadlines the spider asks "Remember this?" – Yes adds it to the calendar and remembers it in the app; nothing is saved without Yes.
+- **Scans:** rotated pages (90/180/270°) in scanned PDFs and photos are now recognised; reading a file shows a waiting bubble right away.
+- **Fixes:** the waiting bubble now also shows when reading a file via the bubble button or the reader; calendar entries end on the correct day; the spider comes back if it was lost; rotated PDFs are rotated once and read faster, with more time for slow PCs.
+- **Tidier result window:** every action only once. The bottom bar shows Read aloud · Copy · Save; "Save" puts the letter in My letters and then asks if you want a reminder (replaces Keep and Read later). The "Reply" tab is gone (the button stays on letter cards). The small print under the result is one line. Settings are shorter (Outlook note under Advanced, Pro at the bottom).
+- **Morning deadline summary** is on by default (can be turned off). **Private mode** deletes everything saved when you quit.
+
 ## 1.28.0
 - **Newer built-in models:** Fast now uses Qwen3.5 2B, Thorough uses Qwen3.5 4B. Whoever already had a model gets the matching new one automatically in the background (only the model is downloaded, nothing is sent). The old file is deleted only after the download succeeded.
 
